@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway Integration</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div>
+        
+        <!--<img class="logo" src="logo.png" alt="logo">-->
+        <nav>
+            <div class="logo"
+            >EDUCORP</div>
+            <ul id="MenuItems">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#features">ABOUT</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <!---<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">----->
+        <section id="background">
+        <div class="container">
+            <div class="box">
+                <Span class="text0">TASK #3  Payment Gateway Integration</Span>
+                <span class="text1">BY  SREELAKSHMI A M #MAY21</span>
+                <!---<span class="text2">INTERN AT THE SPARKS FOUNDATION</span>-->
+                <span class="text3">We Care About Girl Child Education</span>
+                <span class="text4">Join With Us To Educate girl.<br>We Promise To Honour Your Generosity And Use Your Donation In The 
+                Most Effective Way. </span>
+            </div>
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H1PSHbdVoF2PPW" async> </script> </form>
+        </div>
+        </section>
+    </div>
+
+    <!--------about-------------->
+    <section id="features">
+    <div class="title-text">
+        <p>ABOUT</p>
+        <h1>How We Support Girls For Fulfilling Their Dreams</h1>
+    </div>
+    <div class="feature-box">
+        <div class="features">
+            <h1>Providing Scholarship</h1>
+            <div class="feat-desc">
+                <!--<div class="feat-icon">
+                </div>-->
+                <div class="feat-text">
+                    <p> simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                </div>
+            </div>
+
+            <h1>Introducing Student Exchange Programs</h1>
+            <div class="feat-desc">
+                <!--<div class="feat-icon">
+                </div>-->
+                <div class="feat-text">
+                    <p> simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                </div>
+            </div>
+            
+            <h1>Teaching New Skills</h1>
+            <div class="feat-desc">
+                <!--<div class="feat-icon">
+                </div>-->
+                <div class="feat-text">
+                    <p> simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                </div>
+            </div>
+        </div>
+        <div class="features-img">
+            <img src="eduimage.jpg">
+        </div>
+    </div>
+    </section>
+
+    <!----contact------------>
+    <section id="contact">
+    <div class="content">
+        <h2>CONTACT US</h2>
+        <p>Lorem Ipsum is a long established fact that a reader will be distracted by the readable content of 
+            a page when looking at its layout. <br>The point of using Lorem Ipsum is that it has a more.</p>
+    </div>
+    <div class="container-box">
+        <div class="contact-info">
+            <div class="c-box">
+                <div class="icon">
+                    <i class="fa fa-map-marker"></i>
+                </div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>123 Began Camp Road,<br>Minnesota, Manhattan, 657532</p>
+                </div>
+            </div>
+            <div class="c-box">
+                <div class="icon">
+                    <i class="fa fa-phone"></i>
+                </div>
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p>507-436-9084</p>
+                </div>
+            </div>
+            <div class="c-box">
+                <div class="icon">
+                    <i class="fa fa-envelope-o"></i>
+                </div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p><educorp3434@gmail class="com">educorp3434@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form>
+                <h2>Keep In Touch With Us </h2>
+                <div class="input-box">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="input-box">
+                    <input type="submit" name="" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
+    </section>
+
+    <!-----footer-------------->
+    <section id="footer">
+        <p class="copyright">Copyright 2021-@educorp-Sreelakshmi A M</p>
+        <p class="copyright-1">EDUCORP</p>
+    </section>
+    
+<!----------------js for toggle menu------------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
